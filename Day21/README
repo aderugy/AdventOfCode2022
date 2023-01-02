@@ -1,0 +1,15 @@
+Part I (completed on 2022-12-21):
+It was a really fun problem!
+I really like my solution, I believe it is one of the most optimized that could have been done.
+
+The way it works is simple:
+I separate every monkey in two categories: known and unknown
+If a monkey relies on another to calculate it's value, I will store it in a map
+Then, for every known monkey, I update all of the monkeys that rely on it, and add them to the queue of known ones if possible.
+
+
+Part II:
+I really enjoyed solving this one aswell.
+I don't think I could've done much better for this one as well.
+The process is simple:
+It computes the computes the equation the other way around, using the values we already know from part 1, until it finds 'humn'.

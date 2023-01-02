@@ -1,0 +1,14 @@
+My first pathfinding problem!
+
+Part I solved on 2022-12-19:
+At first, I tried the naive approach with a recursion checking each neighbour over and over again until I found the ending point.
+Terrible complexity.
+I then tried to improve it by determining the possible neighbours for each case in a 3D array (same recursion).
+Less terrible complexity but still terrible.
+I therefore got interested in the Dijkstra algorithm (that was new to me).
+After learning a bit about the algorithm, I tried to implement it, failed many times and eventually managed in the end using PriorityQueue.
+Very enriching problem so far.
+
+Part II (same day):
+Was easy to solve after Part I.
+I just changed the stopping criteria (encountering an 'a') and inverted the condition to check if a neighbour is valid or not.

@@ -1,0 +1,11 @@
+Part I (2022-12-20):
+Thought about creating a 2D array representing the map (with not much hope)
+Tried instantiating a 1M * 1M char matrix -> out of memory (expected)
+Tried again with a same size bool matrix -> out of memory (expected)
+At least I tried!
+
+Part II (same day):
+Very, very, very, very (very?) tough problem.
+At first, I tried to calculate [0; 4000000] was included in the intersection of the boundaries of each of the sensors for every row.
+After failing a few other attempts, I had to search a bit on the Internet about it, and found the maths behind it.
+I probably wouldn't have solved it without...

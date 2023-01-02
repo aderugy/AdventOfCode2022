@@ -1,0 +1,15 @@
+Part I (completed on 2022-12-25):
+It was a very very fun problem.
+I am not used at all to pathfinding problems and it was the occasion to practise it.
+I am also proud of my solution, solved the problem in around 0.5 second.
+
+The first solution that I found wasn't optimized at all:
+I went for naive way: recalculating the position of the blizzard at every iteration.
+Then, I realized they were moving in cycles, and the cycle could be calculated easily once at the begining of the program.
+I also used HashSets to ensure that I could access quickly to my data afterwards.
+
+But it was still way too slow, and I found that removing the duplicate nodes from my graph was HUGELY faster.
+-> Time complexity goes from (n- 1)^(n - 1)² to (n - 1)²
+
+Part II (same day):
+DEFINITELY the easiest problem.

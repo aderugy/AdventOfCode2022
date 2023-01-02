@@ -1,0 +1,9 @@
+Part I completed on 2022-12-19
+Was kind of easy, I guess the tricky part was to manage the data, but the Split method made it easy.
+
+Part II (same day):
+Was more challenging, had to adapt the width of the board in function of the height.
+To do so, I guessed that a sand unit couldn't go further to the left or to the right than the max value of Y.
+I then put a margin on the X axis.
+The logical part was the same.
+

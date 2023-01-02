@@ -1,0 +1,10 @@
+Part I (2022-12-20):
+It was a pretty tough problem.
+The main difficulty was to read the subject and understand that when reaching last position of a list it would skip it...
+I first implemented it using for loops to carefully iterate through my list when calculating the insertion index.
+When i got to part 2, i had to optimize this.
+
+Part II (same day):
+Very easy after completing part 1.
+The toughest part was to refactor my code to use long as I would get unsigned overflows with all those big numbers.
+I also found that using the arithmetic version of the modulo would save me years of computations.

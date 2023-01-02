@@ -1,0 +1,7 @@
+Part I (completed on 2022-12-20):
+Pretty easy problem
+
+Part II (same day):
+At first, I tried to replace each air cell that could be seen from a 2D POV by Free Air.
+However, this approach would not consider as Free Air cases that could not be seen from the outside, but that are still accessible.
+I therefore replaced this algorithm by a recursion that replaced each Air cell visible from the outside and it's neighbours by Free Air.
